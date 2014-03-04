@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC26551218BB8730006441D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26551118BB8730006441D5 /* Foundation.framework */; };
+		FC26551418BB8730006441D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26551318BB8730006441D5 /* CoreGraphics.framework */; };
+		FC26551618BB8730006441D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26551518BB8730006441D5 /* UIKit.framework */; };
+		FC26551818BB8730006441D5 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26551718BB8730006441D5 /* SpriteKit.framework */; };
+		FC26551E18BB8730006441D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC26551C18BB8730006441D5 /* InfoPlist.strings */; };
+		FC26552018BB8730006441D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26551F18BB8730006441D5 /* main.m */; };
+		FC26552418BB8730006441D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26552318BB8730006441D5 /* AppDelegate.m */; };
+		FC26552718BB8730006441D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC26552518BB8730006441D5 /* Main.storyboard */; };
+		FC26552A18BB8730006441D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26552918BB8730006441D5 /* ViewController.m */; };
+		FC26552D18BB8730006441D5 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26552C18BB8730006441D5 /* MyScene.m */; };
+		FC26552F18BB8730006441D5 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FC26552E18BB8730006441D5 /* Spaceship.png */; };
+		FC26553118BB8730006441D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC26553018BB8730006441D5 /* Images.xcassets */; };
+		FC26553818BB8730006441D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26553718BB8730006441D5 /* XCTest.framework */; };
+		FC26553918BB8730006441D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26551118BB8730006441D5 /* Foundation.framework */; };
+		FC26553A18BB8730006441D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC26551518BB8730006441D5 /* UIKit.framework */; };
+		FC26554218BB8730006441D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC26554018BB8730006441D5 /* InfoPlist.strings */; };
+		FC26554418BB8730006441D5 /* Coordinate_SystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26554318BB8730006441D5 /* Coordinate_SystemTests.m */; };
+		FC26555218BB87D8006441D5 /* CoordinateScene1.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26555118BB87D8006441D5 /* CoordinateScene1.m */; };
+		FC26555518BB8807006441D5 /* CoordinateScene2.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26555418BB8807006441D5 /* CoordinateScene2.m */; };
+		FC26555818BB8823006441D5 /* CoordinateScene3.m in Sources */ = {isa = PBXBuildFile; fileRef = FC26555718BB8823006441D5 /* CoordinateScene3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC26553B18BB8730006441D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC26550618BB8730006441D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC26550D18BB8730006441D5;
+			remoteInfo = "Coordinate System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC26550E18BB8730006441D5 /* Coordinate System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coordinate System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC26551118BB8730006441D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC26551318BB8730006441D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC26551518BB8730006441D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC26551718BB8730006441D5 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FC26551B18BB8730006441D5 /* Coordinate System-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coordinate System-Info.plist"; sourceTree = "<group>"; };
+		FC26551D18BB8730006441D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC26551F18BB8730006441D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC26552118BB8730006441D5 /* Coordinate System-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Coordinate System-Prefix.pch"; sourceTree = "<group>"; };
+		FC26552218BB8730006441D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC26552318BB8730006441D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC26552618BB8730006441D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC26552818BB8730006441D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC26552918BB8730006441D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC26552B18BB8730006441D5 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		FC26552C18BB8730006441D5 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		FC26552E18BB8730006441D5 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		FC26553018BB8730006441D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC26553618BB8730006441D5 /* Coordinate SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coordinate SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC26553718BB8730006441D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC26553F18BB8730006441D5 /* Coordinate SystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Coordinate SystemTests-Info.plist"; sourceTree = "<group>"; };
+		FC26554118BB8730006441D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC26554318BB8730006441D5 /* Coordinate_SystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coordinate_SystemTests.m; sourceTree = "<group>"; };
+		FC26555018BB87D8006441D5 /* CoordinateScene1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinateScene1.h; sourceTree = "<group>"; };
+		FC26555118BB87D8006441D5 /* CoordinateScene1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinateScene1.m; sourceTree = "<group>"; };
+		FC26555318BB8807006441D5 /* CoordinateScene2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoordinateScene2.h; path = ../CoordinateScene2.h; sourceTree = "<group>"; };
+		FC26555418BB8807006441D5 /* CoordinateScene2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoordinateScene2.m; path = ../CoordinateScene2.m; sourceTree = "<group>"; };
+		FC26555618BB8823006441D5 /* CoordinateScene3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoordinateScene3.h; path = ../CoordinateScene3.h; sourceTree = "<group>"; };
+		FC26555718BB8823006441D5 /* CoordinateScene3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoordinateScene3.m; path = ../CoordinateScene3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC26550B18BB8730006441D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26551418BB8730006441D5 /* CoreGraphics.framework in Frameworks */,
+				FC26551618BB8730006441D5 /* UIKit.framework in Frameworks */,
+				FC26551818BB8730006441D5 /* SpriteKit.framework in Frameworks */,
+				FC26551218BB8730006441D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC26553318BB8730006441D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26553818BB8730006441D5 /* XCTest.framework in Frameworks */,
+				FC26553A18BB8730006441D5 /* UIKit.framework in Frameworks */,
+				FC26553918BB8730006441D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC26550518BB8730006441D5 = {
+			isa = PBXGroup;
+			children = (
+				FC26551918BB8730006441D5 /* Coordinate System */,
+				FC26553D18BB8730006441D5 /* Coordinate SystemTests */,
+				FC26551018BB8730006441D5 /* Frameworks */,
+				FC26550F18BB8730006441D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC26550F18BB8730006441D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC26550E18BB8730006441D5 /* Coordinate System.app */,
+				FC26553618BB8730006441D5 /* Coordinate SystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC26551018BB8730006441D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC26551118BB8730006441D5 /* Foundation.framework */,
+				FC26551318BB8730006441D5 /* CoreGraphics.framework */,
+				FC26551518BB8730006441D5 /* UIKit.framework */,
+				FC26551718BB8730006441D5 /* SpriteKit.framework */,
+				FC26553718BB8730006441D5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC26551918BB8730006441D5 /* Coordinate System */ = {
+			isa = PBXGroup;
+			children = (
+				FC26555618BB8823006441D5 /* CoordinateScene3.h */,
+				FC26555718BB8823006441D5 /* CoordinateScene3.m */,
+				FC26555318BB8807006441D5 /* CoordinateScene2.h */,
+				FC26555418BB8807006441D5 /* CoordinateScene2.m */,
+				FC26555018BB87D8006441D5 /* CoordinateScene1.h */,
+				FC26555118BB87D8006441D5 /* CoordinateScene1.m */,
+				FC26552218BB8730006441D5 /* AppDelegate.h */,
+				FC26552318BB8730006441D5 /* AppDelegate.m */,
+				FC26552518BB8730006441D5 /* Main.storyboard */,
+				FC26552818BB8730006441D5 /* ViewController.h */,
+				FC26552918BB8730006441D5 /* ViewController.m */,
+				FC26552B18BB8730006441D5 /* MyScene.h */,
+				FC26552C18BB8730006441D5 /* MyScene.m */,
+				FC26552E18BB8730006441D5 /* Spaceship.png */,
+				FC26553018BB8730006441D5 /* Images.xcassets */,
+				FC26551A18BB8730006441D5 /* Supporting Files */,
+			);
+			path = "Coordinate System";
+			sourceTree = "<group>";
+		};
+		FC26551A18BB8730006441D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC26551B18BB8730006441D5 /* Coordinate System-Info.plist */,
+				FC26551C18BB8730006441D5 /* InfoPlist.strings */,
+				FC26551F18BB8730006441D5 /* main.m */,
+				FC26552118BB8730006441D5 /* Coordinate System-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC26553D18BB8730006441D5 /* Coordinate SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC26554318BB8730006441D5 /* Coordinate_SystemTests.m */,
+				FC26553E18BB8730006441D5 /* Supporting Files */,
+			);
+			path = "Coordinate SystemTests";
+			sourceTree = "<group>";
+		};
+		FC26553E18BB8730006441D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC26553F18BB8730006441D5 /* Coordinate SystemTests-Info.plist */,
+				FC26554018BB8730006441D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC26550D18BB8730006441D5 /* Coordinate System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC26554718BB8730006441D5 /* Build configuration list for PBXNativeTarget "Coordinate System" */;
+			buildPhases = (
+				FC26550A18BB8730006441D5 /* Sources */,
+				FC26550B18BB8730006441D5 /* Frameworks */,
+				FC26550C18BB8730006441D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coordinate System";
+			productName = "Coordinate System";
+			productReference = FC26550E18BB8730006441D5 /* Coordinate System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC26553518BB8730006441D5 /* Coordinate SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC26554A18BB8730006441D5 /* Build configuration list for PBXNativeTarget "Coordinate SystemTests" */;
+			buildPhases = (
+				FC26553218BB8730006441D5 /* Sources */,
+				FC26553318BB8730006441D5 /* Frameworks */,
+				FC26553418BB8730006441D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC26553C18BB8730006441D5 /* PBXTargetDependency */,
+			);
+			name = "Coordinate SystemTests";
+			productName = "Coordinate SystemTests";
+			productReference = FC26553618BB8730006441D5 /* Coordinate SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC26550618BB8730006441D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = YuryGitman;
+				TargetAttributes = {
+					FC26553518BB8730006441D5 = {
+						TestTargetID = FC26550D18BB8730006441D5;
+					};
+				};
+			};
+			buildConfigurationList = FC26550918BB8730006441D5 /* Build configuration list for PBXProject "Coordinate System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC26550518BB8730006441D5;
+			productRefGroup = FC26550F18BB8730006441D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC26550D18BB8730006441D5 /* Coordinate System */,
+				FC26553518BB8730006441D5 /* Coordinate SystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC26550C18BB8730006441D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26551E18BB8730006441D5 /* InfoPlist.strings in Resources */,
+				FC26553118BB8730006441D5 /* Images.xcassets in Resources */,
+				FC26552F18BB8730006441D5 /* Spaceship.png in Resources */,
+				FC26552718BB8730006441D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC26553418BB8730006441D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26554218BB8730006441D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC26550A18BB8730006441D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26555218BB87D8006441D5 /* CoordinateScene1.m in Sources */,
+				FC26552D18BB8730006441D5 /* MyScene.m in Sources */,
+				FC26552A18BB8730006441D5 /* ViewController.m in Sources */,
+				FC26555818BB8823006441D5 /* CoordinateScene3.m in Sources */,
+				FC26552418BB8730006441D5 /* AppDelegate.m in Sources */,
+				FC26552018BB8730006441D5 /* main.m in Sources */,
+				FC26555518BB8807006441D5 /* CoordinateScene2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC26553218BB8730006441D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC26554418BB8730006441D5 /* Coordinate_SystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC26553C18BB8730006441D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC26550D18BB8730006441D5 /* Coordinate System */;
+			targetProxy = FC26553B18BB8730006441D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC26551C18BB8730006441D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC26551D18BB8730006441D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC26552518BB8730006441D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC26552618BB8730006441D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC26554018BB8730006441D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC26554118BB8730006441D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC26554518BB8730006441D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC26554618BB8730006441D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC26554818BB8730006441D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coordinate System/Coordinate System-Prefix.pch";
+				INFOPLIST_FILE = "Coordinate System/Coordinate System-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC26554918BB8730006441D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coordinate System/Coordinate System-Prefix.pch";
+				INFOPLIST_FILE = "Coordinate System/Coordinate System-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC26554B18BB8730006441D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coordinate System.app/Coordinate System";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coordinate System/Coordinate System-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Coordinate SystemTests/Coordinate SystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC26554C18BB8730006441D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Coordinate System.app/Coordinate System";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Coordinate System/Coordinate System-Prefix.pch";
+				INFOPLIST_FILE = "Coordinate SystemTests/Coordinate SystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC26550918BB8730006441D5 /* Build configuration list for PBXProject "Coordinate System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC26554518BB8730006441D5 /* Debug */,
+				FC26554618BB8730006441D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC26554718BB8730006441D5 /* Build configuration list for PBXNativeTarget "Coordinate System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC26554818BB8730006441D5 /* Debug */,
+				FC26554918BB8730006441D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC26554A18BB8730006441D5 /* Build configuration list for PBXNativeTarget "Coordinate SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC26554B18BB8730006441D5 /* Debug */,
+				FC26554C18BB8730006441D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC26550618BB8730006441D5 /* Project object */;
+}
