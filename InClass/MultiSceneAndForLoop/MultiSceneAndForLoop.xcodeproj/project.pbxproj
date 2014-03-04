@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0613F9118BD1476001431F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0613F9018BD1476001431F0 /* Foundation.framework */; };
+		F0613F9318BD1476001431F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0613F9218BD1476001431F0 /* CoreGraphics.framework */; };
+		F0613F9518BD1476001431F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0613F9418BD1476001431F0 /* UIKit.framework */; };
+		F0613F9718BD1476001431F0 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0613F9618BD1476001431F0 /* SpriteKit.framework */; };
+		F0613F9D18BD1476001431F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0613F9B18BD1476001431F0 /* InfoPlist.strings */; };
+		F0613F9F18BD1476001431F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0613F9E18BD1476001431F0 /* main.m */; };
+		F0613FA318BD1476001431F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0613FA218BD1476001431F0 /* AppDelegate.m */; };
+		F0613FA618BD1476001431F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0613FA418BD1476001431F0 /* Main.storyboard */; };
+		F0613FA918BD1476001431F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0613FA818BD1476001431F0 /* ViewController.m */; };
+		F0613FAC18BD1476001431F0 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F0613FAB18BD1476001431F0 /* MyScene.m */; };
+		F0613FAE18BD1476001431F0 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = F0613FAD18BD1476001431F0 /* Spaceship.png */; };
+		F0613FB018BD1476001431F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0613FAF18BD1476001431F0 /* Images.xcassets */; };
+		F0613FB718BD1476001431F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0613FB618BD1476001431F0 /* XCTest.framework */; };
+		F0613FB818BD1476001431F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0613F9018BD1476001431F0 /* Foundation.framework */; };
+		F0613FB918BD1476001431F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0613F9418BD1476001431F0 /* UIKit.framework */; };
+		F0613FC118BD1476001431F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0613FBF18BD1476001431F0 /* InfoPlist.strings */; };
+		F0613FC318BD1476001431F0 /* MultiSceneAndForLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0613FC218BD1476001431F0 /* MultiSceneAndForLoopTests.m */; };
+		F0613FCE18BD19F6001431F0 /* MyScene2.m in Sources */ = {isa = PBXBuildFile; fileRef = F0613FCD18BD19F6001431F0 /* MyScene2.m */; };
+		F0613FD118BD1A18001431F0 /* MyScene3.m in Sources */ = {isa = PBXBuildFile; fileRef = F0613FD018BD1A18001431F0 /* MyScene3.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0613FBA18BD1476001431F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0613F8518BD1476001431F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0613F8C18BD1476001431F0;
+			remoteInfo = MultiSceneAndForLoop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0613F8D18BD1476001431F0 /* MultiSceneAndForLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiSceneAndForLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0613F9018BD1476001431F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0613F9218BD1476001431F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0613F9418BD1476001431F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0613F9618BD1476001431F0 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		F0613F9A18BD1476001431F0 /* MultiSceneAndForLoop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiSceneAndForLoop-Info.plist"; sourceTree = "<group>"; };
+		F0613F9C18BD1476001431F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0613F9E18BD1476001431F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0613FA018BD1476001431F0 /* MultiSceneAndForLoop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiSceneAndForLoop-Prefix.pch"; sourceTree = "<group>"; };
+		F0613FA118BD1476001431F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0613FA218BD1476001431F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0613FA518BD1476001431F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0613FA718BD1476001431F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0613FA818BD1476001431F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0613FAA18BD1476001431F0 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		F0613FAB18BD1476001431F0 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		F0613FAD18BD1476001431F0 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		F0613FAF18BD1476001431F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F0613FB518BD1476001431F0 /* MultiSceneAndForLoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSceneAndForLoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0613FB618BD1476001431F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F0613FBE18BD1476001431F0 /* MultiSceneAndForLoopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiSceneAndForLoopTests-Info.plist"; sourceTree = "<group>"; };
+		F0613FC018BD1476001431F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0613FC218BD1476001431F0 /* MultiSceneAndForLoopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiSceneAndForLoopTests.m; sourceTree = "<group>"; };
+		F0613FCC18BD19F6001431F0 /* MyScene2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene2.h; sourceTree = "<group>"; };
+		F0613FCD18BD19F6001431F0 /* MyScene2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene2.m; sourceTree = "<group>"; };
+		F0613FCF18BD1A18001431F0 /* MyScene3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScene3.h; sourceTree = "<group>"; };
+		F0613FD018BD1A18001431F0 /* MyScene3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScene3.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0613F8A18BD1476001431F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0613F9318BD1476001431F0 /* CoreGraphics.framework in Frameworks */,
+				F0613F9518BD1476001431F0 /* UIKit.framework in Frameworks */,
+				F0613F9718BD1476001431F0 /* SpriteKit.framework in Frameworks */,
+				F0613F9118BD1476001431F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0613FB218BD1476001431F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0613FB718BD1476001431F0 /* XCTest.framework in Frameworks */,
+				F0613FB918BD1476001431F0 /* UIKit.framework in Frameworks */,
+				F0613FB818BD1476001431F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0613F8418BD1476001431F0 = {
+			isa = PBXGroup;
+			children = (
+				F0613F9818BD1476001431F0 /* MultiSceneAndForLoop */,
+				F0613FBC18BD1476001431F0 /* MultiSceneAndForLoopTests */,
+				F0613F8F18BD1476001431F0 /* Frameworks */,
+				F0613F8E18BD1476001431F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0613F8E18BD1476001431F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0613F8D18BD1476001431F0 /* MultiSceneAndForLoop.app */,
+				F0613FB518BD1476001431F0 /* MultiSceneAndForLoopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0613F8F18BD1476001431F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0613F9018BD1476001431F0 /* Foundation.framework */,
+				F0613F9218BD1476001431F0 /* CoreGraphics.framework */,
+				F0613F9418BD1476001431F0 /* UIKit.framework */,
+				F0613F9618BD1476001431F0 /* SpriteKit.framework */,
+				F0613FB618BD1476001431F0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0613F9818BD1476001431F0 /* MultiSceneAndForLoop */ = {
+			isa = PBXGroup;
+			children = (
+				F0613FA118BD1476001431F0 /* AppDelegate.h */,
+				F0613FA218BD1476001431F0 /* AppDelegate.m */,
+				F0613FA418BD1476001431F0 /* Main.storyboard */,
+				F0613FA718BD1476001431F0 /* ViewController.h */,
+				F0613FA818BD1476001431F0 /* ViewController.m */,
+				F0613FCF18BD1A18001431F0 /* MyScene3.h */,
+				F0613FD018BD1A18001431F0 /* MyScene3.m */,
+				F0613FCC18BD19F6001431F0 /* MyScene2.h */,
+				F0613FCD18BD19F6001431F0 /* MyScene2.m */,
+				F0613FAA18BD1476001431F0 /* MyScene.h */,
+				F0613FAB18BD1476001431F0 /* MyScene.m */,
+				F0613FAD18BD1476001431F0 /* Spaceship.png */,
+				F0613FAF18BD1476001431F0 /* Images.xcassets */,
+				F0613F9918BD1476001431F0 /* Supporting Files */,
+			);
+			path = MultiSceneAndForLoop;
+			sourceTree = "<group>";
+		};
+		F0613F9918BD1476001431F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0613F9A18BD1476001431F0 /* MultiSceneAndForLoop-Info.plist */,
+				F0613F9B18BD1476001431F0 /* InfoPlist.strings */,
+				F0613F9E18BD1476001431F0 /* main.m */,
+				F0613FA018BD1476001431F0 /* MultiSceneAndForLoop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0613FBC18BD1476001431F0 /* MultiSceneAndForLoopTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0613FC218BD1476001431F0 /* MultiSceneAndForLoopTests.m */,
+				F0613FBD18BD1476001431F0 /* Supporting Files */,
+			);
+			path = MultiSceneAndForLoopTests;
+			sourceTree = "<group>";
+		};
+		F0613FBD18BD1476001431F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0613FBE18BD1476001431F0 /* MultiSceneAndForLoopTests-Info.plist */,
+				F0613FBF18BD1476001431F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0613F8C18BD1476001431F0 /* MultiSceneAndForLoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0613FC618BD1476001431F0 /* Build configuration list for PBXNativeTarget "MultiSceneAndForLoop" */;
+			buildPhases = (
+				F0613F8918BD1476001431F0 /* Sources */,
+				F0613F8A18BD1476001431F0 /* Frameworks */,
+				F0613F8B18BD1476001431F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiSceneAndForLoop;
+			productName = MultiSceneAndForLoop;
+			productReference = F0613F8D18BD1476001431F0 /* MultiSceneAndForLoop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0613FB418BD1476001431F0 /* MultiSceneAndForLoopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0613FC918BD1476001431F0 /* Build configuration list for PBXNativeTarget "MultiSceneAndForLoopTests" */;
+			buildPhases = (
+				F0613FB118BD1476001431F0 /* Sources */,
+				F0613FB218BD1476001431F0 /* Frameworks */,
+				F0613FB318BD1476001431F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0613FBB18BD1476001431F0 /* PBXTargetDependency */,
+			);
+			name = MultiSceneAndForLoopTests;
+			productName = MultiSceneAndForLoopTests;
+			productReference = F0613FB518BD1476001431F0 /* MultiSceneAndForLoopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0613F8518BD1476001431F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Edgar Castro";
+				TargetAttributes = {
+					F0613FB418BD1476001431F0 = {
+						TestTargetID = F0613F8C18BD1476001431F0;
+					};
+				};
+			};
+			buildConfigurationList = F0613F8818BD1476001431F0 /* Build configuration list for PBXProject "MultiSceneAndForLoop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0613F8418BD1476001431F0;
+			productRefGroup = F0613F8E18BD1476001431F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0613F8C18BD1476001431F0 /* MultiSceneAndForLoop */,
+				F0613FB418BD1476001431F0 /* MultiSceneAndForLoopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0613F8B18BD1476001431F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0613F9D18BD1476001431F0 /* InfoPlist.strings in Resources */,
+				F0613FB018BD1476001431F0 /* Images.xcassets in Resources */,
+				F0613FAE18BD1476001431F0 /* Spaceship.png in Resources */,
+				F0613FA618BD1476001431F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0613FB318BD1476001431F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0613FC118BD1476001431F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0613F8918BD1476001431F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0613FD118BD1A18001431F0 /* MyScene3.m in Sources */,
+				F0613FAC18BD1476001431F0 /* MyScene.m in Sources */,
+				F0613FA918BD1476001431F0 /* ViewController.m in Sources */,
+				F0613FA318BD1476001431F0 /* AppDelegate.m in Sources */,
+				F0613FCE18BD19F6001431F0 /* MyScene2.m in Sources */,
+				F0613F9F18BD1476001431F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0613FB118BD1476001431F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0613FC318BD1476001431F0 /* MultiSceneAndForLoopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0613FBB18BD1476001431F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0613F8C18BD1476001431F0 /* MultiSceneAndForLoop */;
+			targetProxy = F0613FBA18BD1476001431F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0613F9B18BD1476001431F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0613F9C18BD1476001431F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0613FA418BD1476001431F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0613FA518BD1476001431F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0613FBF18BD1476001431F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0613FC018BD1476001431F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0613FC418BD1476001431F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F0613FC518BD1476001431F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0613FC718BD1476001431F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiSceneAndForLoop/MultiSceneAndForLoop-Prefix.pch";
+				INFOPLIST_FILE = "MultiSceneAndForLoop/MultiSceneAndForLoop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0613FC818BD1476001431F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiSceneAndForLoop/MultiSceneAndForLoop-Prefix.pch";
+				INFOPLIST_FILE = "MultiSceneAndForLoop/MultiSceneAndForLoop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0613FCA18BD1476001431F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiSceneAndForLoop.app/MultiSceneAndForLoop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiSceneAndForLoop/MultiSceneAndForLoop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MultiSceneAndForLoopTests/MultiSceneAndForLoopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F0613FCB18BD1476001431F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MultiSceneAndForLoop.app/MultiSceneAndForLoop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiSceneAndForLoop/MultiSceneAndForLoop-Prefix.pch";
+				INFOPLIST_FILE = "MultiSceneAndForLoopTests/MultiSceneAndForLoopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0613F8818BD1476001431F0 /* Build configuration list for PBXProject "MultiSceneAndForLoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0613FC418BD1476001431F0 /* Debug */,
+				F0613FC518BD1476001431F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0613FC618BD1476001431F0 /* Build configuration list for PBXNativeTarget "MultiSceneAndForLoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0613FC718BD1476001431F0 /* Debug */,
+				F0613FC818BD1476001431F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0613FC918BD1476001431F0 /* Build configuration list for PBXNativeTarget "MultiSceneAndForLoopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0613FCA18BD1476001431F0 /* Debug */,
+				F0613FCB18BD1476001431F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0613F8518BD1476001431F0 /* Project object */;
+}

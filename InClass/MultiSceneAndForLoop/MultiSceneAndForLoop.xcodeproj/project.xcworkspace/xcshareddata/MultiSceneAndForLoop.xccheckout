@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>949BEF38-5488-4F00-9457-F9D5B0232672</string>
+	<string>260E7F7B-5251-49A5-A9BC-20BEECDB9DAE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>4physicsBodys_Linked_By_RopeJoint</string>
+	<string>MultiSceneAndForLoop</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>608CEF56-A89A-4CC2-A17D-EADDF6CDC149</key>
-		<string>https://github.com/samuraipapa/4phyiscsBodies.git</string>
+		<key>FF62CE42-A086-47AA-AA6B-3E0531354E96</key>
+		<string>https://github.com/EdZed/Creative-Coding-iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>4physicsBodys_Linked_By_RopeJoint.xcodeproj/project.xcworkspace</string>
+	<string>InClass/MultiSceneAndForLoop/MultiSceneAndForLoop.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>608CEF56-A89A-4CC2-A17D-EADDF6CDC149</key>
-		<string>../..</string>
+		<key>FF62CE42-A086-47AA-AA6B-3E0531354E96</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/EdZed/Creative-Coding-iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>608CEF56-A89A-4CC2-A17D-EADDF6CDC149</string>
+	<string>FF62CE42-A086-47AA-AA6B-3E0531354E96</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>608CEF56-A89A-4CC2-A17D-EADDF6CDC149</string>
+			<string>FF62CE42-A086-47AA-AA6B-3E0531354E96</string>
 			<key>IDESourceControlWCCName</key>
-			<string>4phyiscsBodies</string>
+			<string>Creative-Coding-iOS</string>
 		</dict>
 	</array>
 </dict>
