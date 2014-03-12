@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9C79A3F2-F6CC-44AC-B4F3-BC7E7BB9CD89</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VoiceSynthAndContactDetection</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D6AF1DA6-CE8A-4FD6-853A-A103C9A37611</key>
+		<string>https://github.com/EdZed/Creative-Coding-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InClass/Week 6/VoiceSynthAndContactDetection/VoiceSynthAndContactDetection.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D6AF1DA6-CE8A-4FD6-853A-A103C9A37611</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EdZed/Creative-Coding-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D6AF1DA6-CE8A-4FD6-853A-A103C9A37611</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D6AF1DA6-CE8A-4FD6-853A-A103C9A37611</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Creative-Coding-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

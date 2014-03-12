@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71A6617D-7183-466C-BB75-4850BA95BADC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SpriteKitPhysicsTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>207032E0-0CC6-49E3-B72D-1AE12E59F437</key>
+		<string>https://github.com/EdZed/Creative-Coding-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HomeworkByWeek/Week 5/SpriteKitPhysicsTest/SpriteKitPhysicsTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>207032E0-0CC6-49E3-B72D-1AE12E59F437</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EdZed/Creative-Coding-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>207032E0-0CC6-49E3-B72D-1AE12E59F437</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>207032E0-0CC6-49E3-B72D-1AE12E59F437</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Creative-Coding-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
