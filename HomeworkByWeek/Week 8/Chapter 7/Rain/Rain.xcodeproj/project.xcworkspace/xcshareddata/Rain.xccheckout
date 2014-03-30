@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8DD2246A-430F-4288-A627-8B0A03443916</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Rain</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF96A29F-B866-4EF9-B799-4F6B981710CE</key>
+		<string>https://github.com/EdZed/Creative-Coding-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HomeworkByWeek/Week 8/Chapter 7/Rain/Rain.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF96A29F-B866-4EF9-B799-4F6B981710CE</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EdZed/Creative-Coding-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF96A29F-B866-4EF9-B799-4F6B981710CE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF96A29F-B866-4EF9-B799-4F6B981710CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Creative-Coding-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
